@@ -1,505 +1,689 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>videoWorks | Hire your virtual assistant</title>
-    <link rel="stylesheet" href="css/utilities.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/hero.css">
-    <link rel="stylesheet" href="css/slider.css">
-    <link rel="stylesheet" href="css/category-grid.css">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+		/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>videoWorks | Hire your virtual assistant</title>
+		<link rel="stylesheet" href="css/utilities.css" />
+		<link rel="stylesheet" href="css/navbar.css" />
+		<link rel="stylesheet" href="css/hero.css" />
+		<link rel="stylesheet" href="css/slider.css" />
+		<link rel="stylesheet" href="css/category-grid.css" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<!--Mobile First-->
+		<div class="hero">
+			<header class="mobile-header-container">
+				<nav class="mobile-nav">
+					<svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="40">
+						<path
+							class="line top"
+							d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40"
+						/>
+						<path class="line middle" d="m 30,50 h 40" />
+						<path
+							class="line bottom"
+							d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40"
+						/>
+					</svg>
+					<div class="mobile-logo-wrapper">
+						<h1 id="mobile-logo"><a href="index.html">videoWorks</a></h1>
+					</div>
+					<div class="nav-login-btn-wrapper">
+						<button class="nav-login-btn">Login</button>
+					</div>
+				</nav>
+			</header>
+			<div class="mobile-menu">
+				<ul class="mobile-menu__list">
+					<li><a href="#">Categories</a></li>
+					<li><a href="profile.html">Profile</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<header class="large-header-container">
+				<nav class="large-nav">
+					<ul class="large-menu__list">
+						<li><a href="profile.html">Profile</a></li>
+						<li class="large-logo-wrapper">
+							<a href="index.html">
+								<h1 id="large-logo">video<span>Works</span></h1></a
+							>
+						</li>
+						<li><a href="about.html">About Us</a></li>
+					</ul>
+				</nav>
+			</header>
+			<!-- START HERO SECTION -->
+			<main id="hero-section">
+				<div class="hero-section-wrapper">
+					<div class="hero-section-wrapper__main">
+						<section class="hero-lede">
+							<h2>Talented Virtual Creators.<br />At Your Service.</h2>
+							<p>
+								Connect with hand-picked talent, that is vetted and expertly
+								matched to fit your needs.
+							</p>
+							<button class="hero-lede-btn">
+								Get Started <i class="fa-solid fa-arrow-right"></i>
+							</button>
+						</section>
+						<section class="hero-graphic">
+							<!--                    <img src="hero/img/MetaverseGirl(1).png" alt="" class=" floating-hero-images falling-lady">-->
+						</section>
+					</div>
 
-</head>
-<body>
-<!--Mobile First-->
-<div class="hero">
-    <header class="mobile-header-container">
-        <nav class="mobile-nav">
-            <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="40">
-                <path
-                        class="line top"
-                        d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40"/>
-                <path
-                        class="line middle"
-                        d="m 30,50 h 40"/>
-                <path
-                        class="line bottom"
-                        d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40"/>
-            </svg>
-            <div class="mobile-logo-wrapper">
-                <h1 id="mobile-logo"><a href="index.html">videoWorks</a></h1>
-            </div>
-            <div class="nav-login-btn-wrapper">
-                <button class="nav-login-btn">Login</button>
-            </div>
-        </nav>
-    </header>
-    <div class="mobile-menu">
-        <ul class="mobile-menu__list">
-            <li><a href="#">Categories</a></li>
-            <li><a href="profile.html">Profile</a></li>
-            <li><a href="#">Register</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </div>
-    <header class="large-header-container">
-        <nav class="large-nav">
-            <ul class="large-menu__list">
-                <li><a href="#categories-section">Categories</a></li>
-                <li><a href="profile.html">Profile</a></li>
-                <li class="large-logo-wrapper">
-                    <a href="index.html"> <h1 id="large-logo">video<span>Works</span></h1></a>
-                </li>
-                <li><a href="#">Register</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main id="hero-section">
-        <div class="hero-section-wrapper">
-            <div class="hero-section-wrapper__main">
-                <section class="hero-lede">
-                    <h2>Talented Virtual Creators.<br>At Your Service.</h2>
-                    <p>Connect with hand-picked talent, that is vetted and expertly matched to fit your needs.
-                    </p>
-                    <button class="hero-lede-btn">Get Started <i class="fa-solid fa-arrow-right"></i></button>
-                </section>
-                <section class="hero-graphic">
-                    <!--                    <img src="hero/img/MetaverseGirl(1).png" alt="" class=" floating-hero-images falling-lady">-->
-                </section>
-            </div>
+					<!--START SLIDER-->
+					<section class="hero-slider">
+						<h2 id="hero-slider-title" class="hero-slider-title section-titles">
+							Seller Spotlight
+						</h2>
+						<div class="media-scroller scroller-controls">
+							<!--                    START SINGLE CARD-->
+							<div class="media-element">
+								<div class="avatar-hover-box">
+									<div class="user-avatar-box">
+										<img
+											class="user-avatar-image1"
+											src="images/avatars/Black%20Woman.png"
+											alt="lady"
+										/>
+									</div>
+								</div>
+								<div class="username-box">
+									<i class="fa-solid fa-person-rays"></i>
+									<p>creator22</p>
+								</div>
+								<div class="media-element__border"></div>
+								<p class="media-element__creator-description">
+									I will dj Nyango Star Metal for your party in VR
+								</p>
+								<div class="ratings-box">
+									<i class="fa-solid fa-star"></i>
+									<p class="user-rating">4.5</p>
+									<p class="number-of-jobs">(149)</p>
+								</div>
+								<div class="creator-price-box">
+									<p>
+										starting at
+										<span class="creator-price-box__amount">$47</span>
+									</p>
+								</div>
+							</div>
+							<!--                    END SINGLE CARD-->
+							<div class="media-element">
+								<div class="avatar-hover-box">
+									<div class="user-avatar-box">
+										<img
+											class="user-avatar-image1"
+											src="images/avatars/Western%20Man.png"
+											alt="lady"
+										/>
+									</div>
+								</div>
+								<div class="username-box">
+									<i class="fa-solid fa-person-rays"></i>
+									<p>creator22</p>
+								</div>
+								<div class="media-element__border"></div>
+								<p class="media-element__creator-description">
+									I will teach you how to make a nice bento lunch
+								</p>
+								<div class="ratings-box">
+									<i class="fa-solid fa-star"></i>
+									<p class="user-rating">4.5</p>
+									<p class="number-of-jobs">(149)</p>
+								</div>
+								<div class="creator-price-box">
+									<p>
+										starting at
+										<span class="creator-price-box__amount">$47</span>
+									</p>
+								</div>
+							</div>
+							<div class="media-element">
+								<div class="avatar-hover-box">
+									<div class="user-avatar-box">
+										<img
+											class="user-avatar-image1"
+											src="images/avatars/West%20Woman.png"
+											alt="lady"
+										/>
+									</div>
+								</div>
+								<div class="username-box">
+									<i class="fa-solid fa-person-rays"></i>
+									<p>creator22</p>
+								</div>
+								<div class="media-element__border"></div>
+								<p class="media-element__creator-description">
+									I will be your Yeezyology tutor
+								</p>
+								<div class="ratings-box">
+									<i class="fa-solid fa-star"></i>
+									<p class="user-rating">4.5</p>
+									<p class="number-of-jobs">(149)</p>
+								</div>
+								<div class="creator-price-box">
+									<p>
+										starting at
+										<span class="creator-price-box__amount">$47</span>
+									</p>
+								</div>
+							</div>
+							<div class="media-element">
+								<div class="avatar-hover-box">
+									<div class="user-avatar-box">
+										<img
+											class="user-avatar-image1"
+											src="images/avatars/Muslim%20Woman.png"
+											alt="lady"
+										/>
+									</div>
+								</div>
+								<div class="username-box">
+									<i class="fa-solid fa-person-rays"></i>
+									<p>creator22</p>
+								</div>
+								<div class="media-element__border"></div>
+								<p class="media-element__creator-description">
+									I will read a book to you in my finest Boston accent
+								</p>
+								<div class="ratings-box">
+									<i class="fa-solid fa-star"></i>
+									<p class="user-rating">4.5</p>
+									<p class="number-of-jobs">(149)</p>
+								</div>
+								<div class="creator-price-box">
+									<p>
+										starting at
+										<span class="creator-price-box__amount">$47</span>
+									</p>
+								</div>
+							</div>
+							<div class="media-element">
+								<div class="avatar-hover-box">
+									<div class="user-avatar-box">
+										<img
+											class="user-avatar-image1"
+											src="images/avatars/Astronaut.png"
+											alt="lady"
+										/>
+									</div>
+								</div>
+								<div class="username-box">
+									<i class="fa-solid fa-person-rays"></i>
+									<p>creator2</p>
+								</div>
+								<div class="media-element__border"></div>
+								<p class="media-element__creator-description">
+									I will play the piccolo, dressed as Piccolo
+								</p>
+								<div class="ratings-box">
+									<i class="fa-solid fa-star"></i>
+									<p class="user-rating">4.5</p>
+									<p class="number-of-jobs">(149)</p>
+								</div>
+								<div class="creator-price-box">
+									<p>
+										starting at
+										<span class="creator-price-box__amount">$47</span>
+									</p>
+								</div>
+							</div>
+							<div class="media-element">
+								<div class="avatar-hover-box">
+									<div class="user-avatar-box">
+										<img
+											class="user-avatar-image1"
+											src="images/avatars/Farmer.png"
+											alt="lady"
+										/>
+									</div>
+								</div>
+								<div class="username-box">
+									<i class="fa-solid fa-person-rays"></i>
+									<p>creator22</p>
+								</div>
+								<div class="media-element__border"></div>
+								<p class="media-element__creator-description">
+									I will dj Nyango Star Metal for your party in VR
+								</p>
+								<div class="ratings-box">
+									<i class="fa-solid fa-star"></i>
+									<p class="user-rating">4.5</p>
+									<p class="number-of-jobs">(149)</p>
+								</div>
+								<div class="creator-price-box">
+									<p>
+										starting at
+										<span class="creator-price-box__amount">$47</span>
+									</p>
+								</div>
+							</div>
+							<div class="media-element">
+								<div class="avatar-hover-box">
+									<div class="user-avatar-box">
+										<img
+											class="user-avatar-image1"
+											src="images/avatars/Designer.png"
+											alt="lady"
+										/>
+									</div>
+								</div>
+								<div class="username-box">
+									<i class="fa-solid fa-person-rays"></i>
+									<p>creator22</p>
+								</div>
+								<div class="media-element__border"></div>
+								<p class="media-element__creator-description">
+									I will develop 100 Bitcoin for you
+								</p>
+								<div class="ratings-box">
+									<i class="fa-solid fa-star"></i>
+									<p class="user-rating">4.5</p>
+									<p class="number-of-jobs">(149)</p>
+								</div>
+								<div class="creator-price-box">
+									<p>
+										starting at
+										<span class="creator-price-box__amount">$47</span>
+									</p>
+								</div>
+							</div>
+							<div class="media-element">
+								<div class="avatar-hover-box">
+									<div class="user-avatar-box">
+										<img
+											class="user-avatar-image1"
+											src="images/avatars/Doctor.png"
+											alt="lady"
+										/>
+									</div>
+								</div>
+								<div class="username-box">
+									<i class="fa-solid fa-person-rays"></i>
+									<p>creator22</p>
+								</div>
+								<div class="media-element__border"></div>
+								<p class="media-element__creator-description">
+									I will style you like the Kardashian's
+								</p>
+								<div class="ratings-box">
+									<i class="fa-solid fa-star"></i>
+									<p class="user-rating">4.5</p>
+									<p class="number-of-jobs">(149)</p>
+								</div>
+								<div class="creator-price-box">
+									<p>
+										starting at
+										<span class="creator-price-box__amount">$47</span>
+									</p>
+								</div>
+							</div>
+							<div class="media-element">
+								<div class="avatar-hover-box">
+									<div class="user-avatar-box">
+										<img
+											class="user-avatar-image1"
+											src="images/avatars/Artist.png"
+											alt="lady"
+										/>
+									</div>
+								</div>
+								<div class="username-box">
+									<i class="fa-solid fa-person-rays"></i>
+									<p>creator22</p>
+								</div>
+								<div class="media-element__border"></div>
+								<p class="media-element__creator-description">
+									I will promote your business to my grandma, once everyday
+								</p>
+								<div class="ratings-box">
+									<i class="fa-solid fa-star"></i>
+									<p class="user-rating">4.5</p>
+									<p class="number-of-jobs">(149)</p>
+								</div>
+								<div class="creator-price-box">
+									<p>
+										starting at
+										<span class="creator-price-box__amount">$47</span>
+									</p>
+								</div>
+							</div>
+							<div class="media-element">
+								<div class="avatar-hover-box">
+									<div class="user-avatar-box">
+										<img
+											class="user-avatar-image1"
+											src="images/avatars/Asia%20Woman.png"
+											alt="lady"
+										/>
+									</div>
+								</div>
+								<div class="username-box">
+									<i class="fa-solid fa-person-rays"></i>
+									<p>creator22</p>
+								</div>
+								<div class="media-element__border"></div>
+								<p class="media-element__creator-description">
+									I will help you start a carpet cleaning business in the
+									metaverse
+								</p>
+								<div class="ratings-box">
+									<i class="fa-solid fa-star"></i>
+									<p class="user-rating">4.5</p>
+									<p class="number-of-jobs">(149)</p>
+								</div>
+								<div class="creator-price-box">
+									<p>
+										starting at
+										<span class="creator-price-box__amount">$47</span>
+									</p>
+								</div>
+							</div>
+							<div class="media-element">
+								<div class="avatar-hover-box">
+									<div class="user-avatar-box">
+										<img
+											class="user-avatar-image1"
+											src="images/avatars/College%20Student.png"
+											alt="lady"
+										/>
+									</div>
+								</div>
+								<div class="username-box">
+									<i class="fa-solid fa-person-rays"></i>
+									<p>creator22</p>
+								</div>
+								<div class="media-element__border"></div>
+								<p class="media-element__creator-description">
+									I will teach you about the planet Bruno Mars
+								</p>
+								<div class="ratings-box">
+									<i class="fa-solid fa-star"></i>
+									<p class="user-rating">4.5</p>
+									<p class="number-of-jobs">(149)</p>
+								</div>
+								<div class="creator-price-box">
+									<p>
+										starting at
+										<span class="creator-price-box__amount">$47</span>
+									</p>
+								</div>
+							</div>
+							<div class="media-element">
+								<div class="avatar-hover-box">
+									<div class="user-avatar-box">
+										<img
+											class="user-avatar-image1"
+											src="images/avatars/Nerd%20Woman.png"
+											alt="lady"
+										/>
+									</div>
+								</div>
+								<div class="username-box">
+									<i class="fa-solid fa-person-rays"></i>
+									<p>creator22</p>
+								</div>
+								<div class="media-element__border"></div>
+								<p class="media-element__creator-description">
+									I can even haz build things
+								</p>
+								<div class="ratings-box">
+									<i class="fa-solid fa-star"></i>
+									<p class="user-rating">4.5</p>
+									<p class="number-of-jobs">(149)</p>
+								</div>
+								<div class="creator-price-box">
+									<p>
+										starting at
+										<span class="creator-price-box__amount">$47</span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</main>
+		</div>
+		<!--END HERO SECTION-->
+		<!--*****-->
+		<!--START CATEGORY SECTION-->
+		<section class="homepage-category-section">
+			<div class="homepage-category-section__title-wrapper">
+				<h2 id="categories-section" class="section-titles">Categories</h2>
+			</div>
+			<div class="category-grid">
+				<!--loosely following BEM-->
+				<div class="category-cards">
+					<div class="category-image-container">
+						<img
+							src="https://source.unsplash.com/random/500×500/?film"
+							alt="DJ BOOTH"
+							class="category-cards__img"
+						/>
+					</div>
+					<div class="category-cards__shape"></div>
+					<img
+						src="images/avatars/Farmer.png"
+						alt="face avatar"
+						class="category-cards__person-popup"
+					/>
+					<div class="category-cards__description">
+						<p>
+							Host an unforgettable event with our VIP Dj's from around the
+							world
+						</p>
+					</div>
+					<div class="category-cards__details">
+						<p class="category-cards__details__title">Virtual DJ's</p>
+						<a href="#">Get Started</a>
+					</div>
+				</div>
+				<div class="category-cards">
+					<div class="category-image-container">
+						<img
+							src="https://source.unsplash.com/random/500×500/?architecture"
+							alt="DJ BOOTH"
+							class="category-cards__img"
+						/>
+					</div>
+					<div class="category-cards__shape"></div>
+					<img
+						src="images/avatars/Farmer.png"
+						alt="face avatar"
+						class="category-cards__person-popup"
+					/>
+					<div class="category-cards__description">
+						<p>Learn to cook your favorite dish with one of our elite chef's</p>
+					</div>
+					<div class="category-cards__details">
+						<p class="category-cards__details__title">Culinary Arts</p>
+						<a href="#">Get Started</a>
+					</div>
+				</div>
+				<div class="category-cards">
+					<div class="category-image-container">
+						<img
+							src="https://source.unsplash.com/random/500×500/?people"
+							alt="DJ BOOTH"
+							class="category-cards__img"
+						/>
+					</div>
+					<div class="category-cards__shape"></div>
+					<img
+						src="images/avatars/Farmer.png"
+						alt="face avatar"
+						class="category-cards__person-popup"
+					/>
+					<div class="category-cards__description">
+						<p>Our tutor's cover a wide range of topics</p>
+					</div>
+					<div class="category-cards__details">
+						<p class="category-cards__details__title">Online Tutor's</p>
+						<a href="#">Get Started</a>
+					</div>
+				</div>
+				<div class="category-cards">
+					<div class="category-image-container">
+						<img
+							src="https://source.unsplash.com/random/500×500/?experimental"
+							alt="DJ BOOTH"
+							class="category-cards__img"
+						/>
+					</div>
+					<div class="category-cards__shape"></div>
+					<img
+						src="images/avatars/Farmer.png"
+						alt="face avatar"
+						class="category-cards__person-popup"
+					/>
+					<div class="category-cards__description">
+						<p>Books are better when you can hear them</p>
+					</div>
+					<div class="category-cards__details">
+						<p class="category-cards__details__title">Book Reading's</p>
+						<a href="#">Get Started</a>
+					</div>
+				</div>
+				<div class="category-cards">
+					<div class="category-image-container">
+						<img
+							src="https://source.unsplash.com/random/500×500/?travel"
+							alt="DJ BOOTH"
+							class="category-cards__img"
+						/>
+					</div>
+					<div class="category-cards__shape"></div>
+					<img
+						src="images/avatars/Farmer.png"
+						alt="face avatar"
+						class="category-cards__person-popup"
+					/>
+					<div class="category-cards__description">
+						<p>
+							Let our producers mix and master your songs with studio quality
+						</p>
+					</div>
+					<div class="category-cards__details">
+						<p class="category-cards__details__title">Music Mastering</p>
+						<a href="#">Get Started</a>
+					</div>
+				</div>
+				<div class="category-cards">
+					<div class="category-image-container">
+						<img
+							src="https://source.unsplash.com/random/500×500/?history"
+							alt="DJ BOOTH"
+							class="category-cards__img"
+						/>
+					</div>
+					<div class="category-cards__shape"></div>
+					<img
+						src="images/avatars/Farmer.png"
+						alt="face avatar"
+						class="category-cards__person-popup"
+					/>
+					<div class="category-cards__description">
+						<p>Frontend, backend, fullstack. end-to-end IT solutions</p>
+					</div>
+					<div class="category-cards__details">
+						<p class="category-cards__details__title">Development & IT</p>
+						<a href="#">Get Started</a>
+					</div>
+				</div>
+				<div class="category-cards">
+					<div class="category-image-container">
+						<img
+							src="https://source.unsplash.com/random/500×500/?fashion"
+							alt="DJ BOOTH"
+							class="category-cards__img"
+						/>
+					</div>
+					<div class="category-cards__shape"></div>
+					<img
+						src="images/avatars/Farmer.png"
+						alt="face avatar"
+						class="category-cards__person-popup"
+					/>
+					<div class="category-cards__description">
+						<p>World-class design - At your service</p>
+					</div>
+					<div class="category-cards__details">
+						<p class="category-cards__details__title">Digital Designers</p>
+						<a href="#">Get Started</a>
+					</div>
+				</div>
+				<div class="category-cards">
+					<div class="category-image-container">
+						<img
+							src="https://source.unsplash.com/random/500×500/?interiors"
+							alt="DJ BOOTH"
+							class="category-cards__img"
+						/>
+					</div>
+					<div class="category-cards__shape"></div>
+					<img
+						src="images/avatars/Farmer.png"
+						alt="face avatar"
+						class="category-cards__person-popup"
+					/>
+					<div class="category-cards__description">
+						<p>
+							Convert your visitors into leads and then into paying customers
+						</p>
+					</div>
+					<div class="category-cards__details">
+						<p class="category-cards__details__title">Online Marketing</p>
+						<a href="#">Get Started</a>
+					</div>
+				</div>
+				<div class="category-cards">
+					<div class="category-image-container">
+						<img
+							src="https://source.unsplash.com/random/500×500/?athletics"
+							alt="DJ BOOTH"
+							class="category-cards__img"
+						/>
+					</div>
+					<div class="category-cards__shape"></div>
+					<img
+						src="images/avatars/Farmer.png"
+						alt="face avatar"
+						class="category-cards__person-popup"
+					/>
+					<div class="category-cards__description">
+						<p>
+							We handle your business affairs so you and help your business grow
+						</p>
+					</div>
+					<div class="category-cards__details">
+						<p class="category-cards__details__title">Business</p>
+						<a href="#">Get Started</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--END CATEGORY SECTION-->
 
-<!--START SLIDER-->
-            <section class="hero-slider">
-                <h2 id="hero-slider-title" class="hero-slider-title section-titles">Seller Spotlight</h2>
-                <div class="media-scroller scroller-controls">
-
-<!--                    START SINGLE CARD-->
-                    <div class="media-element">
-                        <div class="avatar-hover-box">
-                            <div class="user-avatar-box">
-                                <img class="user-avatar-image1" src="images/avatars/Black%20Woman.png" alt="lady">
-                            </div>
-                        </div>
-                        <div class="username-box">
-                            <i class="fa-solid fa-person-rays"></i>
-                            <p>creator22</p>
-                        </div>
-                        <div class="media-element__border"></div>
-                        <p class="media-element__creator-description">I will dj Nyango Star Metal for your party in
-                            VR</p>
-                        <div class="ratings-box">
-                            <i class="fa-solid fa-star"></i>
-                            <p class="user-rating">4.5</p>
-                            <p class="number-of-jobs">(149)</p>
-                        </div>
-                        <div class="creator-price-box">
-                            <p>starting at <span class="creator-price-box__amount">$47</span></p>
-                        </div>
-                    </div>
-<!--                    END SINGLE CARD-->
-                    <div class="media-element">
-                        <div class="avatar-hover-box">
-                            <div class="user-avatar-box">
-                                <img class="user-avatar-image1" src="images/avatars/Western%20Man.png" alt="lady">
-                            </div>
-                        </div>
-                        <div class="username-box">
-                            <i class="fa-solid fa-person-rays"></i>
-                            <p>creator22</p>
-                        </div>
-                        <div class="media-element__border"></div>
-                        <p class="media-element__creator-description">I will teach you how to make a nice bento
-                            lunch</p>
-                        <div class="ratings-box">
-                            <i class="fa-solid fa-star"></i>
-                            <p class="user-rating">4.5</p>
-                            <p class="number-of-jobs">(149)</p>
-                        </div>
-                        <div class="creator-price-box">
-                            <p>starting at <span class="creator-price-box__amount">$47</span></p>
-                        </div>
-                    </div>
-                    <div class="media-element">
-                        <div class="avatar-hover-box">
-                            <div class="user-avatar-box">
-                                <img class="user-avatar-image1" src="images/avatars/West%20Woman.png" alt="lady">
-                            </div>
-                        </div>
-                        <div class="username-box">
-                            <i class="fa-solid fa-person-rays"></i>
-                            <p>creator22</p>
-                        </div>
-                        <div class="media-element__border"></div>
-                        <p class="media-element__creator-description">I will be your Yeezyology tutor</p>
-                        <div class="ratings-box">
-                            <i class="fa-solid fa-star"></i>
-                            <p class="user-rating">4.5</p>
-                            <p class="number-of-jobs">(149)</p>
-                        </div>
-                        <div class="creator-price-box">
-                            <p>starting at <span class="creator-price-box__amount">$47</span></p>
-                        </div>
-                    </div>
-                    <div class="media-element">
-                        <div class="avatar-hover-box">
-                            <div class="user-avatar-box">
-                                <img class="user-avatar-image1" src="images/avatars/Muslim%20Woman.png" alt="lady">
-                            </div>
-                        </div>
-                        <div class="username-box">
-                            <i class="fa-solid fa-person-rays"></i>
-                            <p>creator22</p>
-                        </div>
-                        <div class="media-element__border"></div>
-                        <p class="media-element__creator-description">I will read a book to you in my finest Boston
-                            accent</p>
-                        <div class="ratings-box">
-                            <i class="fa-solid fa-star"></i>
-                            <p class="user-rating">4.5</p>
-                            <p class="number-of-jobs">(149)</p>
-                        </div>
-                        <div class="creator-price-box">
-                            <p>starting at <span class="creator-price-box__amount">$47</span></p>
-                        </div>
-                    </div>
-                    <div class="media-element">
-                        <div class="avatar-hover-box">
-                            <div class="user-avatar-box">
-                                <img class="user-avatar-image1" src="images/avatars/Astronaut.png" alt="lady">
-                            </div>
-                        </div>
-                        <div class="username-box">
-                            <i class="fa-solid fa-person-rays"></i>
-                            <p>creator2</p>
-                        </div>
-                        <div class="media-element__border"></div>
-                        <p class="media-element__creator-description">I will play the piccolo, dressed as Piccolo</p>
-                        <div class="ratings-box">
-                            <i class="fa-solid fa-star"></i>
-                            <p class="user-rating">4.5</p>
-                            <p class="number-of-jobs">(149)</p>
-                        </div>
-                        <div class="creator-price-box">
-                            <p>starting at <span class="creator-price-box__amount">$47</span></p>
-                        </div>
-                    </div>
-                    <div class="media-element">
-                        <div class="avatar-hover-box">
-                            <div class="user-avatar-box">
-                                <img class="user-avatar-image1" src="images/avatars/Farmer.png" alt="lady">
-                            </div>
-                        </div>
-                        <div class="username-box">
-                            <i class="fa-solid fa-person-rays"></i>
-                            <p>creator22</p>
-                        </div>
-                        <div class="media-element__border"></div>
-                        <p class="media-element__creator-description">I will dj Nyango Star Metal for your party in
-                            VR</p>
-                        <div class="ratings-box">
-                            <i class="fa-solid fa-star"></i>
-                            <p class="user-rating">4.5</p>
-                            <p class="number-of-jobs">(149)</p>
-                        </div>
-                        <div class="creator-price-box">
-                            <p>starting at <span class="creator-price-box__amount">$47</span></p>
-                        </div>
-                    </div>
-                    <div class="media-element">
-                        <div class="avatar-hover-box">
-                            <div class="user-avatar-box">
-                                <img class="user-avatar-image1" src="images/avatars/Designer.png" alt="lady">
-                            </div>
-                        </div>
-                        <div class="username-box">
-                            <i class="fa-solid fa-person-rays"></i>
-                            <p>creator22</p>
-                        </div>
-                        <div class="media-element__border"></div>
-                        <p class="media-element__creator-description">I will develop 100 Bitcoin for you</p>
-                        <div class="ratings-box">
-                            <i class="fa-solid fa-star"></i>
-                            <p class="user-rating">4.5</p>
-                            <p class="number-of-jobs">(149)</p>
-                        </div>
-                        <div class="creator-price-box">
-                            <p>starting at <span class="creator-price-box__amount">$47</span></p>
-                        </div>
-                    </div>
-                    <div class="media-element">
-                        <div class="avatar-hover-box">
-                            <div class="user-avatar-box">
-                                <img class="user-avatar-image1" src="images/avatars/Doctor.png" alt="lady">
-                            </div>
-                        </div>
-                        <div class="username-box">
-                            <i class="fa-solid fa-person-rays"></i>
-                            <p>creator22</p>
-                        </div>
-                        <div class="media-element__border"></div>
-                        <p class="media-element__creator-description">I will style you like the Kardashian's</p>
-                        <div class="ratings-box">
-                            <i class="fa-solid fa-star"></i>
-                            <p class="user-rating">4.5</p>
-                            <p class="number-of-jobs">(149)</p>
-                        </div>
-                        <div class="creator-price-box">
-                            <p>starting at <span class="creator-price-box__amount">$47</span></p>
-                        </div>
-                    </div>
-                    <div class="media-element">
-                        <div class="avatar-hover-box">
-                            <div class="user-avatar-box">
-                                <img class="user-avatar-image1" src="images/avatars/Artist.png" alt="lady">
-                            </div>
-                        </div>
-                        <div class="username-box">
-                            <i class="fa-solid fa-person-rays"></i>
-                            <p>creator22</p>
-                        </div>
-                        <div class="media-element__border"></div>
-                        <p class="media-element__creator-description">I will promote your business to my grandma,
-                            once everyday</p>
-                        <div class="ratings-box">
-                            <i class="fa-solid fa-star"></i>
-                            <p class="user-rating">4.5</p>
-                            <p class="number-of-jobs">(149)</p>
-                        </div>
-                        <div class="creator-price-box">
-                            <p>starting at <span class="creator-price-box__amount">$47</span></p>
-                        </div>
-                    </div>
-                    <div class="media-element">
-                        <div class="avatar-hover-box">
-                            <div class="user-avatar-box">
-                                <img class="user-avatar-image1" src="images/avatars/Asia%20Woman.png" alt="lady">
-                            </div>
-                        </div>
-                        <div class="username-box">
-                            <i class="fa-solid fa-person-rays"></i>
-                            <p>creator22</p>
-                        </div>
-                        <div class="media-element__border"></div>
-                        <p class="media-element__creator-description">I will help you start a carpet cleaning
-                            business in
-                            the metaverse</p>
-                        <div class="ratings-box">
-                            <i class="fa-solid fa-star"></i>
-                            <p class="user-rating">4.5</p>
-                            <p class="number-of-jobs">(149)</p>
-                        </div>
-                        <div class="creator-price-box">
-                            <p>starting at <span class="creator-price-box__amount">$47</span></p>
-                        </div>
-                    </div>
-                    <div class="media-element">
-                        <div class="avatar-hover-box">
-                            <div class="user-avatar-box">
-                                <img class="user-avatar-image1" src="images/avatars/College%20Student.png"
-                                     alt="lady">
-                            </div>
-                        </div>
-                        <div class="username-box">
-                            <i class="fa-solid fa-person-rays"></i>
-                            <p>creator22</p>
-                        </div>
-                        <div class="media-element__border"></div>
-                        <p class="media-element__creator-description">I will teach you about the planet Bruno Mars</p>
-                        <div class="ratings-box">
-                            <i class="fa-solid fa-star"></i>
-                            <p class="user-rating">4.5</p>
-                            <p class="number-of-jobs">(149)</p>
-                        </div>
-                        <div class="creator-price-box">
-                            <p>starting at <span class="creator-price-box__amount">$47</span></p>
-                        </div>
-                    </div>
-                    <div class="media-element">
-                        <div class="avatar-hover-box">
-                            <div class="user-avatar-box">
-                                <img class="user-avatar-image1" src="images/avatars/Nerd%20Woman.png" alt="lady">
-                            </div>
-                        </div>
-                        <div class="username-box">
-                            <i class="fa-solid fa-person-rays"></i>
-                            <p>creator22</p>
-                        </div>
-                        <div class="media-element__border"></div>
-                        <p class="media-element__creator-description">I can even haz build things</p>
-                        <div class="ratings-box">
-                            <i class="fa-solid fa-star"></i>
-                            <p class="user-rating">4.5</p>
-                            <p class="number-of-jobs">(149)</p>
-                        </div>
-                        <div class="creator-price-box">
-                            <p>starting at <span class="creator-price-box__amount">$47</span></p>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-        </div>
-    </main>
-</div>
-<!--END HERO SECTION-->
-<!--*****-->
-<!--START CATEGORY SECTION-->
-<section class="homepage-category-section">
-    <div class="homepage-category-section__title-wrapper">
-        <h2 id="categories-section" class="section-titles">Categories</h2>
-    </div>
-    <div class="category-grid">
-        <!--loosely following BEM-->
-        <div class="category-cards">
-            <div class="category-image-container">
-                <img src="https://source.unsplash.com/random/500×500/?film" alt="DJ BOOTH" class="category-cards__img">
-            </div>
-            <div class="category-cards__shape"></div>
-            <img src="images/avatars/Farmer.png" alt="face avatar" class="category-cards__person-popup">
-            <div class="category-cards__description">
-                <p>Host an unforgettable event with our VIP Dj's from around the world </p>
-            </div>
-            <div class="category-cards__details">
-                <p class="category-cards__details__title">Virtual DJ's</p>
-                <a href="#">Get Started</a>
-            </div>
-        </div>
-        <div class="category-cards">
-            <div class="category-image-container">
-                <img src="https://source.unsplash.com/random/500×500/?architecture" alt="DJ BOOTH"
-                     class="category-cards__img">
-            </div>
-            <div class="category-cards__shape"></div>
-            <img src="images/avatars/Farmer.png" alt="face avatar" class="category-cards__person-popup">
-            <div class="category-cards__description">
-                <p>Learn to cook your favorite dish with one of our elite chef's</p>
-            </div>
-            <div class="category-cards__details">
-                <p class="category-cards__details__title">Culinary Arts</p>
-                <a href="#">Get Started</a>
-            </div>
-        </div>
-        <div class="category-cards">
-            <div class="category-image-container">
-                <img src="https://source.unsplash.com/random/500×500/?people" alt="DJ BOOTH"
-                     class="category-cards__img">
-            </div>
-            <div class="category-cards__shape"></div>
-            <img src="images/avatars/Farmer.png" alt="face avatar" class="category-cards__person-popup">
-            <div class="category-cards__description">
-                <p>Our tutor's cover a wide range of topics</p>
-            </div>
-            <div class="category-cards__details">
-                <p class="category-cards__details__title">Online Tutor's</p>
-                <a href="#">Get Started</a>
-            </div>
-        </div>
-        <div class="category-cards">
-            <div class="category-image-container">
-                <img src="https://source.unsplash.com/random/500×500/?experimental" alt="DJ BOOTH"
-                     class="category-cards__img">
-            </div>
-            <div class="category-cards__shape"></div>
-            <img src="images/avatars/Farmer.png" alt="face avatar" class="category-cards__person-popup">
-            <div class="category-cards__description">
-                <p>Books are better when you can hear them</p>
-            </div>
-            <div class="category-cards__details">
-                <p class="category-cards__details__title">Book Reading's</p>
-                <a href="#">Get Started</a>
-            </div>
-        </div>
-        <div class="category-cards">
-            <div class="category-image-container">
-                <img src="https://source.unsplash.com/random/500×500/?travel" alt="DJ BOOTH"
-                     class="category-cards__img">
-            </div>
-            <div class="category-cards__shape"></div>
-            <img src="images/avatars/Farmer.png" alt="face avatar" class="category-cards__person-popup">
-            <div class="category-cards__description">
-                <p>Let our producers mix and master your songs with studio quality</p>
-            </div>
-            <div class="category-cards__details">
-                <p class="category-cards__details__title">Music Mastering</p>
-                <a href="#">Get Started</a>
-            </div>
-        </div>
-        <div class="category-cards">
-            <div class="category-image-container">
-                <img src="https://source.unsplash.com/random/500×500/?history" alt="DJ BOOTH"
-                     class="category-cards__img">
-            </div>
-            <div class="category-cards__shape"></div>
-            <img src="images/avatars/Farmer.png" alt="face avatar" class="category-cards__person-popup">
-            <div class="category-cards__description">
-                <p>Frontend, backend, fullstack. end-to-end IT solutions</p>
-            </div>
-            <div class="category-cards__details">
-                <p class="category-cards__details__title">Development & IT</p>
-                <a href="#">Get Started</a>
-            </div>
-        </div>
-        <div class="category-cards">
-            <div class="category-image-container">
-                <img src="https://source.unsplash.com/random/500×500/?fashion" alt="DJ BOOTH"
-                     class="category-cards__img">
-            </div>
-            <div class="category-cards__shape"></div>
-            <img src="images/avatars/Farmer.png" alt="face avatar" class="category-cards__person-popup">
-            <div class="category-cards__description">
-                <p>World-class design - At your service</p>
-            </div>
-            <div class="category-cards__details">
-                <p class="category-cards__details__title">Digital Designers</p>
-                <a href="#">Get Started</a>
-            </div>
-        </div>
-        <div class="category-cards">
-            <div class="category-image-container">
-                <img src="https://source.unsplash.com/random/500×500/?interiors" alt="DJ BOOTH"
-                     class="category-cards__img">
-            </div>
-            <div class="category-cards__shape"></div>
-            <img src="images/avatars/Farmer.png" alt="face avatar" class="category-cards__person-popup">
-            <div class="category-cards__description">
-                <p>Convert your visitors into leads and then into paying customers</p>
-            </div>
-            <div class="category-cards__details">
-                <p class="category-cards__details__title">Online Marketing</p>
-                <a href="#">Get Started</a>
-            </div>
-        </div>
-        <div class="category-cards">
-            <div class="category-image-container">
-                <img src="https://source.unsplash.com/random/500×500/?athletics" alt="DJ BOOTH"
-                     class="category-cards__img">
-            </div>
-            <div class="category-cards__shape"></div>
-            <img src="images/avatars/Farmer.png" alt="face avatar" class="category-cards__person-popup">
-            <div class="category-cards__description">
-                <p>We handle your business affairs so you and help your business grow</p>
-            </div>
-            <div class="category-cards__details">
-                <p class="category-cards__details__title">Business</p>
-                <a href="#">Get Started</a>
-            </div>
-        </div>
-    </div>
-</section>
-<!--END CATEGORY SECTION-->
-
-<!--SCRIPTS-->
-<script src="js/navbar.js"></script>
-<script src="js/heroImages.js"></script>
-<script src="js/slider.js"></script>
-<script src="js/category-grid.js"></script>
-</body>
+		<!--SCRIPTS-->
+		<script src="js/navbar.js"></script>
+		<script src="js/heroImages.js"></script>
+		<script src="js/slider.js"></script>
+		<script src="js/category-grid.js"></script>
+	</body>
 </html>

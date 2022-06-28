@@ -1,0 +1,27 @@
+.about-title-div {
+	/* position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); */
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	color: white;
+}
+
+.about-title-div span {
+	font-size: 22vw;
+	font-weight: 800;
+	text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+}
+
+.about-title-div span:not(:first-child) {
+	margin-left: -0.23em;
+}
+
+.image-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	gap: 20px;
+}
